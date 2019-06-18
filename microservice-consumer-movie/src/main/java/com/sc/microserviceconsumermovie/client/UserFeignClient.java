@@ -14,11 +14,12 @@ import java.math.BigDecimal;
  * @author: lw
  * @create: 2019-06-13 17:01
  **/
-@FeignClient(name = "microservice-provider-user",  fallback = UserFeignClientFallback.class)
+@FeignClient(name = "microservice-provider-user", fallback = UserFeignClientFallback.class)
 public interface UserFeignClient {
 
     /**
      * 查询用户
+     *
      * @param id
      * @return
      */

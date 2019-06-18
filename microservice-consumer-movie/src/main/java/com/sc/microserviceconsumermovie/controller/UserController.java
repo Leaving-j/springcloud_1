@@ -38,6 +38,6 @@ public class UserController {
     }
 
     public User findByIdFallback(Long id) {
-        return new User(id,"xixi","xiaoxi",12,null);
+        return new User(id, "xixi", "xiaoxi", 12, null);
     }
 }
