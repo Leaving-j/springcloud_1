@@ -11,7 +11,7 @@ spring:
           enabled: false
           lowerCaseServiceId: true
       routes:
-        - id: service-hi
+        - id: microservice-consumer-movie
           uri: lb://MICROSERVICE-CONSUMER-MOVIE
           predicates:
             - Path=/movie/**
